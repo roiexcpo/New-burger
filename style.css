@@ -17,6 +17,8 @@ html, body {
     background: lightgray;
     border-bottom: 2px solid black;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -74,7 +76,7 @@ html, body {
         width: 30px;
         height: 2px;
         background: black;
-        transition: transform 0.3s ease;
+        transition: transform 0.5s ease;
     }
 
     .burger span:nth-child(1) {
